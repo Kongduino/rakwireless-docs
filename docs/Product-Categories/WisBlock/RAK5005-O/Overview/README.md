@@ -30,15 +30,13 @@ Thank you for choosing **RAK5005-O WisBlock Base Board** in your awesome IoT Pro
 
 **RAK5005-O** is a WisBlock Base board that connects all **WisBlock** modules together and provides the power supply for attached **WisBlock** modules.
 
-The **RAK5005-O** has a one slot reserved for WisBlock Core module，four Slot A-D for WisBlock Module and one slot one IO Slot for bigger WisBlock Modules. Also, there are also **2.54 mm pitch connectors** for extension interface, such as **I2C**, **UART**, and **GPIO pins**.
+The **RAK5005-O** has one slot reserved for the WisBlock Core module，four slots, A to D, for WisBlock modules and one slot, the IO slot, for bigger WisBlock modules. Also, there are **2.54 mm pitch connectors** for extension interfaces, such as **I2C**, **UART**, and **GPIO**.
 
-For convenience, there is a USB connector for debugging, it is connected directly to MCU’s USB port (if supported). The customer can access the internal MCU by connecting to a computer’s USB port directly. This USB connector is also used as a battery charging port.
+For convenience, there is a USB connector for debugging. It is connected directly to the MCU’s USB port (if supported). The customer can access the internal MCU by connecting to a computer’s USB port directly. This USB connector is also used as a battery charging port.
 
-For each module, a method is designed to connect and fasten the module easily. These connectors are **high-speed board to board connector**, they provide signal integrity for each data bus. A set of screws are used for attaching the module under the environment with vibrations.
+Each module can be connected and fastened easily and securely. These connectors are **high-speed board to board connectors**, they provide signal integrity for each data bus. A set of screws are used to secure the module under an environment with vibrations.
 
-To avoid electromagnetic interference and heating interference, the sensor connectors on the WisBlock Base 
-are designed to be installed on both sides of the PCB. Thus a sensor module can be attached either on the top layer or the bottom layer of the WisBlock Base board.
-
+To avoid electromagnetic and heating interferences, the sensor connectors on the WisBlock Base are designed to be installed on both sides of the PCB. Thus a sensor module can be attached either on the top layer or the bottom layer of the WisBlock Base board. heating interferences can also be offset by using a [RAK19005 Sensor Extension Cable](https://docs.rakwireless.com/Product-Categories/WisBlock/RAK19005/Overview/), a 12-cm cable that allows you to connect a sensor away from the base itself, ideal for environment-related sensors.
 
 **RAK5005-O** is as well the mounting base when you put your solution into a case. **RAK5005-O** has connectors for the following:
 
@@ -46,29 +44,28 @@ are designed to be installed on both sides of the PCB. Thus a sensor module can 
 * 1 WisBlock Module compatible with IO Slot
 * 4 WisBlock Modules compatible to Slot A-D
 * 1 USB port for programming and debugging
-* 3.7&nbsp;V Rechargeable battery connector
-* 5&nbsp;V Solar Panel connector
+* 3.7V Rechargeable battery connector
+* 5V Solar Panel connector
 * I2C, UART, GPIO's and analog input accessible with solder contacts
 
-It has as well two user definable LED’s and one power supply/charging indicator LED and a reset button.
+It has two user-definable LEDs as well, one power supply/charging indicator LED and a reset button.
 
 ## Product Features
 
 * **Power supply**     
-    * **RAK5005-O** supports both 5&nbsp;V USB and 3.7&nbsp;V rechargeable battery as power supply. In addition, it has a connector for a 5&nbsp;V solar panel to recharge the battery in a remote solution.     
-    * Control of power consumption    
-    **RAK5005-O** has an electronic power switch for the supply to the **WisBlock modules**. The power supply for some of the **WisBlock Sensor** boards and most of the **WisBlock modules** boards can be controlled by the **WisBlock Core** modules application.    
+    * **RAK5005-O** supports both 5V USB and a 3.7V rechargeable battery as power supply. In addition, it has a connector for a 5V solar panel to recharge the battery in a remote location.
+    * Control of power consumption
+    **RAK5005-O** has an electronic power switch for the supply to the **WisBlock modules**. The power supply for some of the **WisBlock Sensor** boards and most of the **WisBlock modules** boards can be controlled by the **WisBlock Core** modules application.
 
 * **Size**    
-    * **RAK5005-O** has a size of only 30 x 60&nbsp;mm which lets you create solutions that fits into smallest housings.
-
+    * **RAK5005-O** has a size of only 30 x 60 mm, which lets you create solutions that fit into the smallest housings.
 
 ## Prerequisites 
 
 WisBlock Base is amazingly easy to use and requires only a USB cable to start developing with the system.
 
 :::warning ⚠️ WARNING    
-- Only 3.7-4.2&nbsp;V Rechargeable LiPo batteries are supported. Do not use other types of batteries with the system.    
-- Only 5&nbsp;V solar panels are supported. Do not use 12&nbsp;V solar panels. It will destroy the charging unit and eventually other electronic parts.    
+- Only 3.7-4.2V Rechargeable LiPo batteries are supported. Do not use other types of batteries with the system.
+- Only 5V solar panels are supported. Do not use 12V solar panels. It will destroy the charging unit and eventually other electronic parts.
 
 :::
